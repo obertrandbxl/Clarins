@@ -1,0 +1,516 @@
+/* CSS Table of Contents (In Order):
+	- Global Resets
+	- Page Structure (Layout Divs)
+	- Default CSS
+	- jQuery Default CSS
+	- Header/Footer Elements
+	- Homepage
+*/
+
+
+
+.top-banner {
+    padding-bottom: 0px !important;
+	/* override global CSS */
+}
+
+
+.homepage-product-recomendations-section{
+	margin-left: 0px !important;
+	margin-right: 0px !important;
+	/* override global CSS */
+}
+
+/*Aspot homepage  */
+/*.Aspot-banner a:active
+{
+   outline:none;
+}
+.Aspot-banner{
+	text-align:center;
+	padding-bottom:60px;
+	display:block;
+	position:relative;	
+}
+
+.Aspot-banner-visual{
+	width:2000px;
+	background-repeat:no-repeat;
+	background-position:center top;
+	background-size:auto 100%;
+	margin-left:-375px;
+	position: relative;
+}
+.Aspot-banner .visual{
+	display:block;
+	position:absolute;	
+	height:100%;
+	width:2000px;
+	left:50%;
+	margin-left:-1000px;
+	top:0px;
+	 min-height:1px;
+	text-align:center;
+}
+.Aspot-banner-visual img {
+		width:100%;
+		display:block;
+		position:relative;
+		max-height:500px;
+}
+.Aspot-banner-visual .visual img {
+		height:100%;
+		width:auto;
+		display:inline-block;
+		max-height:500px;
+}
+
+@media screen and (max-width: 1249px) {
+	 .Aspot-banner{
+		 overflow-x: hidden;
+	 }
+	.Aspot-banner-visual{
+		width:100%;
+		margin-left:0px;
+		overflow:hidden;
+		height:100%!important;
+    	}
+}
+
+.Aspot-banner h2{
+	margin:0;
+	padding:0;
+	font-size:60px;
+	line-height:1em;
+	font-family:ClarinsRegular;
+	margin-top:-0.46em;
+	font-weight:normal;
+	text-align:center;
+	display:block;
+	position:relative;
+}
+*/
+
+/*------------ ASPOT VARIANT -----------*/
+
+/* TEXTE OVERLAY - CASE 1 */
+/*.Aspot-banner.Type1 .row, .Aspot-banner.Type2 .row , .Aspot-banner.Type3 .row{
+	margin-left:0;
+	margin-right:0;
+}
+.Aspot-banner.Type1 .row p.text, .Aspot-banner.Type2 .row p.text, .Aspot-banner.Type3 .row p.text{
+	margin-left:20px;
+	margin-right:20px;
+}*/
+
+/* TEXTE OVERLAY - CASE 1 */
+/*.Aspot-banner.Type1 h2{
+	margin-top:-0.46em;
+}
+@media screen and (max-width: 1249px) {
+	.Aspot-banner.Type1 h2{
+      width:auto;
+	  padding-left:20px;
+	  padding-right:20px;
+	}
+}*/
+/* TEXTE WITH NO OVERLAY - CASE 2 */
+/*.Aspot-banner.Type2 h2{
+      margin-top:-30px;
+      background-color:#FFF;
+      width:2000px;
+      margin-left:-375px;
+      padding-top:2px;
+}
+@media screen and (max-width: 1249px) {
+	.Aspot-banner.Type2 h2{
+      width:auto;
+      margin-left:0px;
+	  padding-left:20px;
+	  padding-right:20px;
+	  padding-top:15px;
+	}
+	
+}
+@media screen and (max-width: 761px) {
+	.Aspot-banner.Type2 h2{
+    	 margin-top:0px;
+	}
+	
+}*/
+
+/* SPECIAL MENTIONS - CASE 3 */
+/*.Aspot-banner.Type3 p.special-mention{
+     margin-top:-50px;
+     background-color:#FFF;
+     width:2000px;
+     margin-left:-375px;
+    
+	text-transform:uppercase;
+	color:#be0f34;
+	font-size:14px;
+	font-weight:normal;
+	text-align:center;
+	min-height:1px;
+	display:block;
+	position:relative;
+	line-height:30px;
+	font-family: "Gotham SSm medium A","Gotham SSm medium B",Helvetica,Arial,sans-serif;
+	padding-top:2px;
+}
+
+.Aspot-banner.Type3 h2{
+      margin-top:-10px;
+      background-color:#FFF;
+      width:2000px;
+      margin-left:-375px;
+      padding-top:0px;
+}
+@media screen and (max-width: 1249px) {
+	.Aspot-banner.Type3 p.special-mention{
+      width:auto;
+      margin-left:0px;
+	  padding-left:20px;
+	  padding-right:20px;
+	}
+	.Aspot-banner.Type3 h2{
+      width:auto;
+      margin-left:0px;
+	  padding-left:20px;
+	  padding-right:20px;
+	  padding-top:2px;
+	}
+	
+}
+@media screen and (max-width: 761px) {
+
+
+	
+
+	.Aspot-banner.Type3 p.special-mention{
+    	 margin-top:0px;
+	}
+	
+}*/
+
+/*-----------------------------------*/
+
+/*.Aspot-banner h2 .special-mention{
+	text-transform:uppercase;
+	color:#be0f34;
+	font-size:14px;
+	font-weight:normal;
+	text-align:center;
+	min-height:1px;
+	display:block;
+	line-height:20px;
+	font-family: "Gotham SSm medium A","Gotham SSm medium B",Helvetica,Arial,sans-serif;
+	padding-top:40px;
+}
+@media screen and (max-width: 761px) {
+	.Aspot-banner h2 .special-mention{
+		padding-top:30px;
+	}
+	
+	
+}
+
+.Aspot-banner p{
+	margin:0;
+	padding:0;
+	font-size:16px;
+	line-height:1.5em;
+	display:block;
+	text-align:center;
+	padding-top:15px;
+}
+.Aspot-banner .mobile-line-break {
+		display:inline-block;
+}
+@media screen and (max-width: 1023px) {
+	.Aspot-banner h2{
+		font-size:60px;
+	}
+}
+
+@media screen and (max-width: 761px) {
+	.Aspot-banner h2 {
+		font-size:40px;
+	}
+	.Aspot-banner p{
+		font-size:16px;
+	}
+}
+
+.Aspot-banner a{
+	text-decoration:none;
+}
+.Aspot-banner a:hover{
+	text-decoration:none;
+	color:#000;
+}
+
+.Aspot-banner .btn-link{
+	border:2px solid #e5e5e5;
+	padding:18px;
+	padding-top:16px;
+	padding-bottom:16px;
+	margin-top:30px;
+	min-width:176px;
+	font-family: "Gotham SSm medium A","Gotham SSm medium B",Helvetica,Arial,sans-serif;
+    font-size: 11px;
+	color:#000000;
+	line-height:14px;
+	text-transform:uppercase;
+	display:inline-block;
+	position:relative;	
+	text-decoration:none;
+}
+.Aspot-banner .btn-link:hover{
+	border:2px solid #000;
+	color:#000000;
+}*/
+
+
+
+/* Shop Slot css */
+
+.ShopSlot-Banner{
+	text-align:center!important;
+	max-width:1024px;
+	margin-left:auto;
+	margin-right:auto;
+}
+.ShopSlot-Banner a{
+	text-decoration:none;
+}
+.ShopSlot-Banner a:hover{
+	color:#000;
+}
+.ShopSlot-Banner .col{
+	text-align:center;
+	vertical-align:top;
+	padding-bottom:60px;
+}
+
+.ShopSlot-Banner .text-link{
+	margin:0;
+	padding:0;
+	color:#000!important;
+	line-height:1em!important;
+	text-transform:uppercase;
+	display:inline-block;
+	font-size:11px!important;
+	text-decoration:none!important;
+	border-bottom:#d4d4d4 1px solid!important;
+}
+.ShopSlot-Banner .text-link:hover{
+	border-bottom:#be0f34 1px solid!important;
+	color:#be0f34!important;
+	
+}
+
+.ShopSlot-Banner h3{
+	margin:0;
+	padding:0;
+	padding-top:15px!important;
+	font-weight:normal;
+	font-size:25px;
+	text-decoration:none;
+	display:block;
+	line-height:1em;
+	padding-bottom:15px;
+	text-transform:uppercase;
+	text-align:center;
+}
+
+@media screen and (max-width: 761px) {
+.ShopSlot-Banner h3{
+	font-size:20px;
+}
+}
+
+.ShopSlot-Banner img{
+	width:100%;
+	max-width:206px;
+}
+
+
+
+
+/*Brand slot banner */
+
+.BrandSlot-banner{
+	text-align:center;
+	display:block;
+	position:relative;	
+}
+
+.BrandSlot-banner-visual{
+	width:2000px;
+	background-repeat:no-repeat;
+	background-position:center top;
+	background-size:auto 100%;
+	margin-left:-375px;
+
+}
+
+.BrandSlot-banner-visual img {
+		width:100%;
+		display:block;
+		position:relative;
+		max-height:500px;
+}
+.BrandSlot-banner .visual{
+	display:block;
+	position:absolute;	
+	height:100%;
+	width:2000px;
+	left:50%;
+	margin-left:-1000px;
+	top:0px;
+	text-align:center;
+}
+.BrandSlot-banner-visual .visual img {
+		height:100%;
+		width:auto;
+		display:inline-block;
+		max-height:500px;
+}
+
+@media screen and (max-width: 1249px) {
+	.BrandSlot-banner-visual{
+		width:100%;
+		margin-left:0px;
+	}
+	.BrandSlot-banner{
+		overflow:hidden;
+	}
+
+}
+
+
+.BrandSlot-banner h2{
+	margin:0;
+	padding:0;
+	font-size:60px;
+	line-height:1em;
+	font-family:ClarinsRegular;
+	margin-top:-0.46em;
+	font-weight:normal;
+	text-align:center;
+	display:block;
+	position:absolute;
+	bottom:50%;
+	color:#FFF;
+	width:100%;
+	left:0px;
+}
+
+
+@media screen and (max-width: 1023px) {
+	.BrandSlot-banner h2{
+		font-size:60px;
+	}
+	.BrandSlot-banner{
+		overflow:hidden;
+	}
+}
+
+@media screen and (max-width: 761px) {
+	.BrandSlot-banner h2 {
+		font-size:40px;
+	}
+	.BrandSlot-banner .mobile-line-break {
+		display:inline-block;
+	}
+	.BrandSlot-banner{
+		overflow:hidden;
+	}
+}
+.BrandSlot-banner .text-link-Wrapper{
+	position:absolute;
+	top:50%;
+	width:100%;
+	left:0px;
+}
+.BrandSlot-banner .text-link{
+	padding-top:2em;
+	color:#FFF;
+	line-height:11px;
+	text-transform:uppercase;
+	display:block;
+	font-size:11px;
+	text-decoration:underline;
+
+}
+.BrandSlot-banner a{
+	text-decoration:none;
+	
+}
+
+.homepage-top-carousel .customCarousel li {
+	overflow: hidden;
+}
+/*
+.homepage-top-carousel .jcarousel-wrapper {
+    max-width: 1250px !important;
+} */
+ .homepage-top-carousel .Aspot-banner .visual img {
+ width: auto;
+}
+.homepage-top-carousel .jcarousel-wrapper {
+    margin-top: 16px;
+}
+.homepage-top-carousel .Aspot-banner.Type2 .special-mention {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+/* CORRECTION FOOTER */
+.footer-item.footer-newsletter{
+	overflow: auto;
+}
+
+.footer-newsletter .newsletter-form-1-container > form{
+	width: 100%;
+}
+@media only screen and (min-width: 1024px){
+	.footer-newsletter .newsletter-form-1-container .subscribe .newsletter-form-1-button span{
+		font-size: 0.9em;
+	}
+}
+
+.footer-newsletter .newsletter-form-1-container .subscribe{
+	clear: none;
+	float: right; 
+}
+
+/* END CORRECTION FOOTER */
+
+/*Product B-Spots Overwrite*/
+
+.product-mini-tile .product-tile-block {
+	height: auto;
+}
+
+.product-mini-tile .product-name {
+	font-size: 25px;
+	font-weight: normal;
+	line-height: 1em;
+	overflow: visible;
+	height: auto;
+}
+
+.product-mini-tile .product-description, .product-tile .product-description {
+	font-size: 12px;
+	line-height: 1.5em;
+	height: auto;
+	overflow: visible;
+}
+
+@media screen and (min-width: 768px) {
+	.product-mini-tile .product-description {
+		font-size: 12px;
+		line-height: 1.5em;
+	}
+}
